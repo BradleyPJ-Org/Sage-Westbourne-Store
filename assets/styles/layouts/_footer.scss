@@ -1,0 +1,35 @@
+.footer {
+    background: #AA3939;
+    border-top: 2px solid #801515;
+    margin-top: 20px;
+    padding: 20px;
+}
+@media screen and (max-width: 975px) {
+    .footer-hide {
+        display: none;
+    }
+}
+
+.sitemap{
+  padding: 0;
+}
+.footer-list {
+    padding: 10px;
+}
+.footer-list .contact {
+    color: #fff;
+}
+.footer-list .title {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.footer-list li {
+    list-style: none;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+}
+.footer-list li a {
+    color: inherit;
+}

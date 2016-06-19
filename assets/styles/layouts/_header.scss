@@ -1,0 +1,73 @@
+.quickContact {
+    background: #801515;
+    color: #fff;
+    padding: 0;
+}
+@media screen and (max-width: 1200px) {
+    .quickContact {
+        display: none;
+    }
+}
+.quickContact p {
+    padding: 2px;
+    margin: 0;
+}
+.nav>li, .nav>li>a{
+  float:left;
+}
+.navbar-brand {
+    height: auto;
+}
+.nav {
+    border-radius: 0;
+    margin: 0;
+    color: #fff;
+    padding: 5px
+}
+.nav li a {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 20px
+}
+.nav li a:hover {}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+.navbar {
+    margin: 0;
+    background: #AA3939;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0px 3px 11px -3px rgba(0, 0, 0, 0.55);
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    /* background: $BaseColour; */
+    color: #DBDCE8;
+}
+.nav>li {
+    display: block;
+    list-style: none;
+    float: left;
+    color: #fff;
+    padding: 10px;
+    a {
+      font-size: 16px;
+      text-transform: uppercase;
+      color: #fff;
+        &:hover,&:active,&:focus{
+          color: #DBDCE8;
+          background:none;
+        }
+    }
+}
+
+.navbar-brand img{
+  max-height:100px;
+}
